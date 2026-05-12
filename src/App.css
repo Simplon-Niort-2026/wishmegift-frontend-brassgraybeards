@@ -1,4 +1,20 @@
-.counter {
+:root {
+  --main-color: #FDFC32;
+  --secondary-color: #2E4260;
+  --font-size: 0.9rem;
+}
+
+.left-banner {
+ border-top: 100px solid var(--main-color);
+ border-right: 100px solid transparent;
+ height: 0;
+ width: 50%;
+}
+
+
+
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +197,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */
