@@ -5,11 +5,19 @@
 }
 
 .left-banner {
- border-top: 100px solid var(--main-color);
- border-right: 100px solid transparent;
- height: 0;
- width: 50%;
+  border-top: 100px solid var(--main-color);
+  border-right: 100px solid transparent;
+  height: 0;
+  width: 48%;
 }
+
+.full-banner {
+  background-color: var(--secondary-color);
+  display: flex;
+  gap: 0;
+}
+
+
 
 
 

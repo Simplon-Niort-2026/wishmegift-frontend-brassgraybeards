@@ -1,4 +1,4 @@
-export default function LeftBanner() {
+export default function BannerLeft() {
  return (
   <div className="left-banner"></div>
  )
