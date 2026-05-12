@@ -1,5 +1,0 @@
- <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />;
-
-
-
-
