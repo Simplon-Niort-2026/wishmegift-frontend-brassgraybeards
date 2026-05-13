@@ -1,29 +1,29 @@
-
 import './App.css'
-import logo from './assets/WMG 3.jpg'
+import logo from './assets/WMG.jpg'
+import Breadcrumb from "./components/Breadcrumb.tsx";
+
 
 const App = () => {
 
-  return (
-      <body>
-      <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />;
-      <main className="App"><h1>titre</h1>
-      <article>lorem ipsum </article>
+    return (
+        <div className="App">
+            <img src={logo} alt="logo" style={{width: '200px', height: 'auto'}}/>
+
+            <Breadcrumb
+                items={[
+                    {label: 'Home', href: '/'},
+                    {label: 'Ma Liste', href: '/list'},
+                    {
+                        label: 'cadeau',
+                        href: ""
+                    },
+
+                ]}
+            />
+        </div>
+    )
 
 
-
-
-      </main>
-
-
-
-
-
-
-
-      </body>
-
-  )
 }
 
 export default App
