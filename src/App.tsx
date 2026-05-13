@@ -1,7 +1,9 @@
 
+
 import "./App.css";
 import Checkbox from "./components/Checkbox";
 import logo from "./assets/WMG.jpg"
+import Breadcrumb from "./components/Breadcrumb.tsx";
 export default function App() {
 
 
@@ -11,6 +13,18 @@ export default function App() {
                 src={logo}
                 alt="logo"
 
+            />
+        
+            <Breadcrumb
+                items={[
+                    {label: 'Home', href: '/'},
+                    {label: 'Ma Liste', href: '/list'},
+                    {
+                        label: 'cadeau',
+                        href: ""
+                    },
+
+                ]}
             />
         <div className="container">
             <div className="row">
@@ -23,4 +37,9 @@ export default function App() {
         </div>
             </div>
     );
+
+
+
+
+
 }
