@@ -1,28 +1,10 @@
-
 import './App.css'
-import logo from './assets/WMG 3.jpg'
+import ListName from './components/ListName'
 
-const App = () => {
+function App() {
 
   return (
-      <body>
-      <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />;
-      <main className="App"><h1>titre</h1>
-      <article>lorem ipsum </article>
-
-
-
-
-      </main>
-
-
-
-
-
-
-
-      </body>
-
+      <ListName name="Hello World!"/>
   )
 }
 
