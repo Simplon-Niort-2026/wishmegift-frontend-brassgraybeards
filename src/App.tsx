@@ -1,14 +1,20 @@
-import './App.css'
-import logo from './assets/WMG.jpg'
+
+
+import "./App.css";
+import Checkbox from "./components/Checkbox";
+import logo from "./assets/WMG.jpg"
 import Breadcrumb from "./components/Breadcrumb.tsx";
+export default function App() {
 
-
-const App = () => {
 
     return (
-        <div className="App">
-            <img src={logo} alt="logo" style={{width: '200px', height: 'auto'}}/>
+        <div className="logo-container">
+            <img
+                src={logo}
+                alt="logo"
 
+            />
+        
             <Breadcrumb
                 items={[
                     {label: 'Home', href: '/'},
@@ -20,10 +26,20 @@ const App = () => {
 
                 ]}
             />
+        <div className="container">
+            <div className="row">
+                <Checkbox />
+                <span>Réserver</span>
+            </div>
+
+
+
         </div>
-    )
+            </div>
+    );
+
+
+
 
 
 }
-
-export default App
