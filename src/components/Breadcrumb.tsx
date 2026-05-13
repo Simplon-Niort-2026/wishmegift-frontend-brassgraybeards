@@ -1,4 +1,3 @@
-
 interface BreadcrumbItem {
     label: string;
     href: string;
@@ -8,11 +7,11 @@ interface BreadcrumbProps {
     items: BreadcrumbItem[]
 }
 
-const Breadcrumb = ({ items }: BreadcrumbProps) => {
+const Breadcrumb = ({items}: BreadcrumbProps) => {
     return (
         <nav aria-label="fil d'ariane">
             <ol className="breadcrumb">
-                {items.map((item, index)=> {
+                {items.map((item, index) => {
                     const isLast = index === item.label.length - 1;
                     return (
                         <li key={index} className="breadcrumb__item">
@@ -21,7 +20,7 @@ const Breadcrumb = ({ items }: BreadcrumbProps) => {
                                 <span className="breadcrumb__current" aria-current="page">
                                     {item.label}
                                 </span>
-                            ):(
+                            ) : (
                                 <a href={item.href} className="breadcrumb__link">
                                     {item.label}
                                 </a>
