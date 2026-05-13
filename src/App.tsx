@@ -1,29 +1,26 @@
 
-import './App.css'
-import logo from './assets/WMG 3.jpg'
-
-const App = () => {
-
-  return (
-      <body>
-      <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />;
-      <main className="App"><h1>titre</h1>
-      <article>lorem ipsum </article>
+import "./App.css";
+import Checkbox from "./components/Checkbox";
+import logo from "./assets/WMG.jpg"
+export default function App() {
 
 
+    return (
+        <div className="logo-container">
+            <img
+                src={logo}
+                alt="logo"
+
+            />
+        <div className="container">
+            <div className="row">
+                <Checkbox />
+                <span>Réserver</span>
+            </div>
 
 
-      </main>
 
-
-
-
-
-
-
-      </body>
-
-  )
+        </div>
+            </div>
+    );
 }
-
-export default App
