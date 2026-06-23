@@ -1,0 +1,9 @@
+.full-banner {
+  background-color: var(--secondary-color);
+  display: flex;
+  gap: 0;
+}
+
+h1 {
+    
+}
