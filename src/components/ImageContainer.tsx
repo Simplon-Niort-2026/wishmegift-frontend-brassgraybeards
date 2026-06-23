@@ -3,7 +3,7 @@ interface ImageContainerProps {
     description?: string;
 };
 
-export default function(props: ImageContainerProps) {
+export default function addImageContainer(props: ImageContainerProps) {
     return(
         <img src={props.source} alt={props.description}/>
     );
