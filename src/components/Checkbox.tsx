@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styled from "styled-components";
-
 type CheckboxProps = {
     checked?: boolean;
     defaultChecked?: boolean;
