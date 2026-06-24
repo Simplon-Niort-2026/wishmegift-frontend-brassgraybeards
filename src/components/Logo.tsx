@@ -1,6 +1,6 @@
 export default function Logo() {
  return (
-  <img src="src/assets/WMG.jpg" alt="logo" style={{ width: '200px', height: 'auto' }} />
+  <img src="src/assets/images/WMG.jpg" alt="Logo WishMeGift" className="logo" />
  )
 }
 

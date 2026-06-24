@@ -1,12 +1,3 @@
-@font-face {
-  font-family: 'Jua';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://cdn.jsdelivr.net/fontsource/fonts/jua@latest/latin-400-normal.woff2') format('woff2'),
-       url('https://cdn.jsdelivr.net/fontsource/fonts/jua@latest/latin-400-normal.woff') format('woff');
-}
-
 .left-banner {
     border-top: 100px solid var(--main-color);
     border-right: 100px solid transparent;
@@ -24,7 +15,7 @@
     left: 3%;
 }
 
-.left-banner>h1 {
+.left-banner > h1 {
     position: absolute;
     top: 3%;
     left: 18%;

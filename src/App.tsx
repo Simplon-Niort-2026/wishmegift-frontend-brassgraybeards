@@ -1,14 +1,13 @@
-
-import FullBanner from './components/Header'
-// import BannerLeft from './components/BannerLeft'
-import './App.css'
+import Header from './components/Header';
+import './App.css';
+import "./assets/fonts/fonts.css"
 
 const App = () => {
 
   return (
     <body>
       <main className="App">
-        <FullBanner></FullBanner>
+        <Header></Header>
         <h1>titre</h1>
         <article>lorem ipsum </article>
       </main>
