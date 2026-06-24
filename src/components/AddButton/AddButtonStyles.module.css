@@ -1,0 +1,20 @@
+.button {
+  width: 50%;
+  height: 50%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 50%;
+}
+
+.plus {
+  width: 90%;
+  height: 90%;
+  stroke: #2E4260;
+  stroke-width: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
