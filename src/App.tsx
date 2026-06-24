@@ -1,4 +1,3 @@
-
 import "./App.css";
 import "./assets/fonts/fonts.css"
 import Header from './components/Header/Header.tsx';
@@ -10,24 +9,25 @@ export default function App() {
   return (
     <>
       <Header></Header>
+      <main>
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Ma Liste', href: '/list' },
+            {
+              label: 'cadeau',
+              href: ""
+            },
 
-      <Breadcrumb
-        items={[
-          { label: 'Home', href: '/' },
-          { label: 'Ma Liste', href: '/list' },
-          {
-            label: 'cadeau',
-            href: ""
-          },
-        ]}
-      />
-
-      <div className="container">
-        <div className="row">
-          <Checkbox />
-          <p>Réserver</p>
+          ]}
+        />
+        <div className="container">
+          <div className="row">
+            <Checkbox />
+            <span>Réserver</span>
+          </div>
         </div>
-      </div>
+      </main>
     </>
   );
 }
